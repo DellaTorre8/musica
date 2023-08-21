@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMusic</title>
+    <link rel="styleforpg" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">JMUSIC</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ALBUNS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ARTISTAS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     MAIS OPÇÕES
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="ARTISTAS,ALBUNS,ETC........" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">PESQUISAR</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="w-100 img-fluid d-md-none" src="./IMG/TUCO RJ.jpg"
+                  alt="TUCO BIAGIO">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./IMG/TUCO RJ.jpg"
+                  alt="ULTIMO LANÇAMENTO DE TUC">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./IMG/TUCO RJ.jpg"
+                  alt="TUCO BIAGIO">
+                  <div class="carousel-caption">
+                    <h5 class="fs-1">TUCO BIAGIO E CHAMATCH</h5>
+                    <p class="fs-4">RJ </p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100 img-fluid d-md-none" src="./IMG/VEIGH.jpg"
+                  alt="VEIGH">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./IMG/VEIGH.jpg"
+                  alt="VEIGH">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./IMG/VEIGH.jpg"
+                  alt="VEIGH">
+                <div class="carousel-caption">
+                  <h5 class="fs-1">VEIGH</h5>
+                  <p class="fs-4">DOS PRÉDIOS- DELUXE</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100 img-fluid d-md-none" src="./IMG/maxresdefault.jpg"
+                  alt="YUNK">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./IMG/maxresdefault.jpg"
+                  alt="YUNK">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./IMG/maxresdefault.jpg"
+                  alt="YUNK">
+                <div class="carousel-caption">
+                  <h5 class="fs-1">KYAN E MU540</h5>
+                  <p class="fs-4">UM QUEBRADA INTELIGENTE</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </section>
+          <section>
+            <section class="py-5">
+              <h2 class="text-center fw-bold pb-1">LANÇAMENTOS</h2>
+        
+              <div class="container d-flex justify-content-around flex-wrap">
+            <div class="card m-4" style="width: 20rem;">
+              <img src="./IMG/VULGO 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">VULGO FK</h5>
+                <p class="card-text">PERDAS E GANHOS</p>
+                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
+              </div>
+            </div>
+            <div class="card m-4" style="width: 20rem;">
+              <img src="./IMG/CHEFIn.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CHEFIN</h5>
+                <p class="card-text">O MAIS NOVO ROMANTICO</p>
+                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
+              </div>
+            </div>
+            <div class="card m-4" style="width: 20rem;">
+              <img src="./IMG/POZE.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Poze l MC Cabelinho l Bielzin l Oruam l MC Ryan SP</h5>
+                <p class="card-text">A CARA DO CRIME 4 "Acendo a Flor"</p>
+                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
+              </div>
+            </div>  
+
+          </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
