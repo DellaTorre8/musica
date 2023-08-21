@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMusic</title>
-    <link rel="styleforpg" href="Style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
-  </head>
+    <link rel="styleforpg" href="style.css">
+    
+   
+  
 </head>
-<body>
+<body data-bs-theme="ligth"> 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -110,35 +110,43 @@
         </section>
           <section>
             <section class="py-5">
-              <h2 class="text-center fw-bold pb-1">LANÇAMENTOS</h2>
-        
-              <div class="container d-flex justify-content-around flex-wrap">
-            <div class="card m-4" style="width: 20rem;">
-              <img src="./IMG/VULGO 2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">VULGO FK</h5>
-                <p class="card-text">PERDAS E GANHOS</p>
-                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
-              </div>
-            </div>
-            <div class="card m-4" style="width: 20rem;">
-              <img src="./IMG/CHEFIn.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">CHEFIN</h5>
-                <p class="card-text">O MAIS NOVO ROMANTICO</p>
-                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
-              </div>
-            </div>
-            <div class="card m-4" style="width: 20rem;">
-              <img src="./IMG/POZE.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Poze l MC Cabelinho l Bielzin l Oruam l MC Ryan SP</h5>
-                <p class="card-text">A CARA DO CRIME 4 "Acendo a Flor"</p>
-                <a href="#" class="btn btn-primary">CLIQUE E SAIBA MAIS</a>
-              </div>
-            </div>  
 
-          </section>
+              <h2 class="fw-bold text-center pb-1">LANÇAMENTOS</h2>
+        
+              <div class="row mx-0">
+        
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                          style="width: 18rem;">
+                          <img src="./IMG/CHEFIn.jpg" class="card-img-top" alt="chefin">
+                          <div class="card-body">
+                              <h5 class="card-text text-center fw-bold">O MAIS NOVO ROMANTICO</h5>
+                              <h9 class="card-text text-center">CHEFIN</h9>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                          style="width: 18rem;">
+                          <img src="/IMG/POZE.jpg" class="card-img-top" alt="A CARA DO CRIME">
+                          <div class="card-body">
+                              <h5 class="card-text fw-bold text-center">A CARA DO CRIME</h5>
+                              <h9 class="card-text text-center">Poze l MC Cabelinho l Bielzin l Oruam l MC Ryan SP</h9>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" style="width: 18rem;">
+                          <img src="/IMG/VULGO 2.jpg" class="card-img-top" alt="Vitaminas variadas">
+                          <div class="card-body">
+                              <h5 class="card-text text-center fw-bold text-nowrap">PERDAS E GANHOS</h5>
+                              <h9 class="card-text text-center">VULGO FK</h9>
+                          </div>
+                      </div>
+                  </div>
+            </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
